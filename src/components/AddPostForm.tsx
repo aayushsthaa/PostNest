@@ -35,8 +35,8 @@ const AddPostForm: React.FC<AddPostFormProps> = ({ onAddPost }) => {
 
   return (
     <form onSubmit={handleSubmit} className="bg-white p-6 rounded-lg border border-gray-200 shadow-sm mb-8">
-      <h3 className="text-xl font-bold text-gray-900 mb-6 uppercase tracking-wide text-sm">
-        Share a New Post
+      <h3 className="text-xl font-bold text-gray-900 mb-6 uppercase tracking-wide">
+        New Post
       </h3>
       
       <div className="flex flex-col gap-6">
