@@ -11,7 +11,7 @@ const PostCard: React.FC<PostCardProps> = ({ title, body }) => {
       <h3 className="font-bold text-gray-900 leading-tight">
         {title}
       </h3>
-      <p className="text-sm text-gray-600 leading-relaxed line-clamp-4">
+      <p className="text-sm text-gray-600 leading-relaxed">
         {body}
       </p>
     </div>
